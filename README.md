@@ -1,0 +1,2 @@
+# moochbot
+Official Mooch Hubot
