@@ -10,7 +10,7 @@
 
 module.exports = (robot) ->
 
-  robot.hear /mooch/i, (res) ->
+  robot.hear /\Wmooch\W/i, (res) ->
     res.reply "Mooch? Never heard of em."
 
   # robot.hear /badger/i, (res) ->
