@@ -11,7 +11,13 @@
 module.exports = (robot) ->
 
   robot.hear /\Wmooch\W/i, (res) ->
-    res.reply "Mooch? Never heard of em."
+    responses = [
+      'Mooch? Never heard of em. Haha, just kidding, I know you losers.'
+      'Mooch, the social network for freeloaders?'
+      'Yo, if this whole Mooch thing pans out, you guys owe me. Big time.'
+      "Mooch? So how's that MVP coming along, anyway?"
+    ]
+    res.send res.random responses
 
   # robot.hear /badger/i, (res) ->
   #   res.send "Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS"
