@@ -10,7 +10,7 @@
 
 module.exports = (robot) ->
 
-  robot.hear /\Wmooch\W/i, (res) ->
+  robot.hear /\bmooch\b/i, (res) ->
     responses = [
       'Mooch? Never heard of em. Haha, just kidding, I know you losers.'
       'Mooch, the social network for freeloaders?'
